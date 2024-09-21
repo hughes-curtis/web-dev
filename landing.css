@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    align-items: center;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 700;
+    color: green;
+}
+
+.links {
+    display: none;
+}
+
+.search {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    background-image: url('kitten.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    margin-bottom: 14px;
+    width: 50%;
+    padding: 8px;
+    border-radius: 14px;
+    border: none;
+    
+}
+
+button {
+    width: 50%;
+    background-color: green;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: black;
+    color: green;
+}
+
+a:hover{
+    color: green;
+}
+
+
+@media screen and (min-width: 600px) {
+    .links {
+        display: block;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        margin-left: 8px;
+    }
+
+    button, input {
+        width: 30%;
+    }
+}

@@ -1,0 +1,51 @@
+.title {
+   text-align: center; 
+ 
+}
+
+.submit-button {
+    background-color: aquamarine;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: none;
+    width: 50%;
+    align-self: center;
+}
+
+form {
+    background-color: beige;
+    height: 600px ;
+    padding: 26px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first-name {
+    margin-bottom: 12px;
+}
+
+.email-div {
+    margin-bottom: 12px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .submit-button {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .submit-button {
+        width: 100%;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+}
